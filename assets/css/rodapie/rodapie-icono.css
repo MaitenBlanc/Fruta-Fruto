@@ -1,0 +1,21 @@
+.rodapie__icon {
+    margin-right: 1.25rem;
+}
+
+@media screen and (min-width: 0) {
+    .rodapie__icon {
+        justify-content: center;
+        align-items: center;
+    }
+    a.rodapie__icon {
+        margin: 0;
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__icon {
+        justify-content: center;
+        align-items: center;
+    }
+}

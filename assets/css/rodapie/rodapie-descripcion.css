@@ -1,0 +1,21 @@
+.rodapie__descripcion {
+    display: flex;
+    font-size: 2rem;
+    margin-left: 5rem;
+    color: #8c8888;
+}
+
+@media screen and (min-width: 0) {
+    .rodapie__descripcion {
+        justify-content: center;
+        align-self: center;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__descripcion {
+        justify-content: center;
+        align-items: center;
+    }
+}
